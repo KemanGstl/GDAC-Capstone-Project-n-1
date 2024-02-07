@@ -59,9 +59,9 @@ Considerations:
 - No duplicates have been shown.
 
 - There is the three categories of bicycles:
-1. Electric bikes
-2. Classic/Thermic bikes
-3. Docked bikes
+  1. Electric bikes
+  2. Classic/Thermic bikes
+  3. Docked bikes
 
 - After checking for missing values, the following columns will see some rows removed during cleaning.
   - start_station_name
