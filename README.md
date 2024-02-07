@@ -56,24 +56,24 @@ Data exploration allows me to get familiarized with the data set as well as prev
 
 Considerations:
 
-No duplicates have been shown.
+- No duplicates have been shown.
 
-There is three categories of bicycles:
+- There is the three categories of bicycles:
 1. Electric bikes
 2. Classic/Thermic bikes
 3. Docked bikes
 
-After checking for missing values, the following columns will see some rows removed during cleaning.
-- start_station_name
-- start_station_id
-- end_station_name
-- end_station_id
-- end_lat
-- end_lng
+- After checking for missing values, the following columns will see some rows removed during cleaning.
+  - start_station_name
+  - start_station_id
+  - end_station_name
+  - end_station_id
+  - end_lat
+  - end_lng
 
-I consider that casual riders do not speedrun between docking stations or go for trekking weekends with Cyclistics bicycles, therefore it can be concluded that the length of rides is minimum 2 minutes & maximum 1440 minutes (one day). The total number of rides falling in that category will be removed during cleaning.
+- I consider that casual riders do not speedrun between docking stations or go for trekking weekends with Cyclistics bicycles, therefore it can be concluded that the length of rides is minimum 2 minutes & maximum 1440 minutes (one day). The total number of rides falling in that category will be removed during cleaning.
 
-I consider the two types of riders (members or casuals) and check the number of trips per type.
+- I consider the two types of riders (members or casuals) and check the number of trips per type.
 
 Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_exploration.sql) running these considerations.
 
