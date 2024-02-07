@@ -46,8 +46,11 @@ Each file contains the following column names:
 - member_casual
 
 ## Process
+### Data combination
 Due to their sizes, the 12 files have been uploaded to Google BigQuery into the dataset, "tripdata_2022".
-A new table is created and the data appended, using the following query.
+A new table is created and the data appended, using the following [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_combining.sql)
+A total of 5,667,717 rows have been combined.
 
-```
+### Data Exploration
+Data exploration allows me to get familiarized with the data set as well as previewing future data cleaning. I will scan through each column to better understand what is available to me for future analysis.
 
