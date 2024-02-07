@@ -75,7 +75,7 @@ I consider that casual riders do not speedrun between docking stations or go for
 
 I consider the two types of riders (members or casuals) and check the number of trips per type.
 
-Here is the [SQL file](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_exploration.sql) running these considerations.
+Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_exploration.sql) running these considerations.
 
 
 
