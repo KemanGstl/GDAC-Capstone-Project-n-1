@@ -46,7 +46,7 @@ Each file contains the following column names:
 - member_casual
 
 ## Process
-### Data combination
+### Data append
 Due to their sizes, the 12 files have been uploaded to Google BigQuery into the dataset, "tripdata_2022".
 A new table is created and the data appended, using the following [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_combining.sql).
 A total of 5,667,717 rows have been combined.
@@ -76,6 +76,8 @@ Considerations:
 - I consider the two types of riders (members or casuals) and check the number of trips per type.
 
 Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_exploration.sql) running these considerations.
+
+### Data cleaning
 
 
 
