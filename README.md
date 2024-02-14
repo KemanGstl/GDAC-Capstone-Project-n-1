@@ -80,7 +80,8 @@ Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob
 
 #### Cleaning
 Again, I am trying to understand how casual riders and members differ in their usage of Cyclistic services. Therefore a new table with clean data is built, based on the schema of the appended data and the previous considerations. The SQL query can be found [here](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_cleaning.sql).
+Two columns have been added, "day" & "month", that will help analyse how casual riders and members behaviours differ.
 
-
+## Analyse
 
 
