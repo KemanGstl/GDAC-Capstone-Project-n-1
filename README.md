@@ -46,12 +46,13 @@ Each file contains the following column names:
 - member_casual
 
 ## Process
-### Data append
+### Data Append
 Due to their sizes, the 12 files have been uploaded to Google BigQuery into the dataset, "tripdata_2022".
 A new table is created and the data appended, using the following [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_combining.sql).
 A total of 5,667,717 rows have been combined.
 
-### Data Exploration
+### Data Cleaning
+#### Familiarization
 Data exploration allows me to get familiarized with the data set as well as previewing future data cleaning. I will scan through each column to better understand what is available to me for future analysis.
 
 Considerations:
@@ -77,7 +78,9 @@ Considerations:
 
 Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_exploration.sql) running these considerations.
 
-### Data cleaning
+#### Cleaning
+Again, I am trying to understand how casual riders and members differ in their usage of Cyclistic services. Therefore a new table with clean data is built, based on the schema of the appended data and the previous considerations. The SQL query can be found [here]().
+
 
 
 
