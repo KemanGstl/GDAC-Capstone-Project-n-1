@@ -83,5 +83,8 @@ Again, I am trying to understand how casual riders and members differ in their u
 Two columns have been added, "day" & "month", that will help analyse how casual riders and members behaviours differ.
 
 ## Analyse
+The analysis is done using Tableau Desktop (note to self & anyone reading, the switch from Tableau Public to Tableau Desktop - free trial - is phenomenal).
 
+
+docked bike could signify that they are parked by users, especially casual riders, to make sure that they have one after their break/pause??
 
