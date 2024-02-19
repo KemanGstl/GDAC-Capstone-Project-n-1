@@ -81,10 +81,12 @@ Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob
 #### Cleaning
 Again, I am trying to understand how casual riders and members differ in their usage of Cyclistic services. Therefore a new table with clean data is built, based on the schema of the appended data and the previous considerations. The SQL query can be found [here](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_cleaning.sql).
 Two columns have been added, "day" & "month", that will help analyse how casual riders and members behaviours differ.
+After cleaning, the total number of rows, or trips, reaches 4,069,558.
 
 ## Analyse
-The analysis is done using Tableau Desktop (note to self & anyone reading, the switch from Tableau Public to Tableau Desktop - free trial - is phenomenal).
+The analysis is done using Tableau Desktop with the data source connected to Google BigQuery, where all the preparation, data appending and cleaning has been done.
+A dashboard will be built at the end of the analysis for ease of information access and reading. It is available on Tableau Public, [here]().
 
 
-docked bike could signify that they are parked by users, especially casual riders, to make sure that they have one after their break/pause??
+note: docked bike could signify that they are parked by users, especially casual riders, to make sure that they have one after their break/pause??
 
