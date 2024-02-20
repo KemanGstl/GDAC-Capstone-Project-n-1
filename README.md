@@ -85,8 +85,9 @@ After cleaning, the total number of rows, or trips, reaches 4,069,558.
 
 ## Analyse
 The analysis is done using Tableau Desktop with the data source connected to Google BigQuery, where all the preparation, data appending and cleaning has been done.
-A dashboard will be built at the end of the analysis for ease of information access and reading. It is available on Tableau Public, [here]().
+A dashboard will be built at the end of the analysis for ease of information access and reading. It is available on Tableau Public, [here](https://public.tableau.com/views/CyclisticCaseStudy-GoogleDataAnalysisCertification/Dashboard2?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link).
 
 
-note: docked bike could signify that they are parked by users, especially casual riders, to make sure that they have one after their break/pause??
+
+
 
