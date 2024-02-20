@@ -87,7 +87,8 @@ After cleaning, the total number of rows, or trips, reaches 4,069,558.
 The analysis is done using Tableau Desktop with the data source connected to Google BigQuery, where all the preparation, data appending and cleaning has been done.
 A dashboard will be built at the end of the analysis for ease of information access and reading. It is available on Tableau Public, [here](https://public.tableau.com/views/CyclisticCaseStudy-GoogleDataAnalysisCertification/Dashboard2?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link).
 
-
+Percentages of total trips for Casual riders: 41.33%
+Percentages of total trips for Member riders: 58.66%
 
 
 
