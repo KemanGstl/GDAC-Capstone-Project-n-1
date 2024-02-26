@@ -79,16 +79,33 @@ Considerations:
 Here is the [SQL query](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_exploration.sql) running these considerations.
 
 #### Cleaning
-Again, I am trying to understand how casual riders and members differ in their usage of Cyclistic services. Therefore a new table with clean data is built, based on the schema of the appended data and the previous considerations. The SQL query can be found [here](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_cleaning.sql).
+A new table with clean data is built, based on the schema of the appended data and the previous considerations. The SQL query can be found [here](https://github.com/KemanGstl/GDAC-Capstone-Project1/blob/main/tripdata_cleaning.sql).
 Two columns have been added, "day" & "month", that will help analyse how casual riders and members behaviours differ.
 After cleaning, the total number of rows, or trips, reaches 4,069,558.
 
-## Analyse
+## Analyse & Share
 The analysis is done using Tableau Desktop with the data source connected to Google BigQuery, where all the preparation, data appending and cleaning has been done.
 A dashboard will be built at the end of the analysis for ease of information access and reading. It is available on Tableau Public, [here](https://public.tableau.com/views/CyclisticCaseStudy-GoogleDataAnalysisCertification/Dashboard2?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link).
 
-Percentages of total trips for Casual riders: 41.33%
-Percentages of total trips for Member riders: 58.66%
+Again, I am trying to understand how casual riders and members differ in their usage of Cyclistic services.
 
+Casual riders are represented with the shade of teal. Members are represented with the yellow-green.
+While members are the biggest users of Cyclistics goods & services, they tend to go on shorter rides than casual members.
+
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/dedf3fa7-e365-44d5-8573-a626667d5f80)
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/dd7305c2-c14b-42b6-ab1a-6650002dad69)
+
+
+We can see on the following pie chart that over the total number of trips, the classic "thermal" bike is the most used at almost 60%. Followed by the electric bike.
+
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/cc98430b-911e-4eca-a815-97f7a7baaf61) 
+
+The docked bike (taken & dropped at a docking station), amounts to less than 5% of trips. Additionally, only casual riders use docked bicycles.
+
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/31fce0a1-c88b-4537-adb0-095630f9a54d)
+
+Trend observations show distinct patterns over longer times. Members tend to use their memberships more on weekdays than weekends, which is the reverse for casual riders. Looking at it monthly, there's a clear drop in trips during the cold months like January (12,046 trips) compared to the surge in trips during warm months like August (309,585 trips). This suggests that regular members might mostly be locals from Chicago, while casual users could include a good number of tourists. In other words, members may use Cyclistic for commuting vs. leisure trips for casual riders.
+
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/a9179ddb-4959-45f5-a1ea-3906e74a3198)
 
 
