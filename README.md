@@ -85,27 +85,66 @@ After cleaning, the total number of rows, or trips, reaches 4,069,558.
 
 ## Analyse & Share
 The analysis is done using Tableau Desktop with the data source connected to Google BigQuery, where all the preparation, data appending and cleaning has been done.
-A dashboard will be built at the end of the analysis for ease of information access and reading. It is available on Tableau Public, [here](https://public.tableau.com/views/CyclisticCaseStudy-GoogleDataAnalysisCertification/Dashboard2?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link).
+For ease of information access and reading, a dashboard is available on Tableau Public, [here](https://public.tableau.com/views/CyclisticCaseStudy-GoogleDataAnalysisCertification/Dashboard2?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link).
 
 Again, I am trying to understand how casual riders and members differ in their usage of Cyclistic services.
 
 Casual riders are represented with the shade of teal. Members are represented with the yellow-green.
-While members are the biggest users of Cyclistics goods & services, they tend to go on shorter rides than casual members.
+
+#### Total Number of Rides:
+- Casual riders took a total of 1,682,044 rides.
+- Members took a total of 2,897,514 rides.
+Members used the service significantly more than casual riders, with approximately 1.72 times more rides.
+
+#### Average Ride Duration in Minutes:
+- Casual riders had an average ride duration of 24:42 minutes.
+- Members had a significantly shorter average ride duration of 13:25 minutes.
+Casual riders tend to have almost double the ride duration of members, indicating they may use the service for longer, more leisurely rides.
 
 ![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/dedf3fa7-e365-44d5-8573-a626667d5f80)
 ![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/dd7305c2-c14b-42b6-ab1a-6650002dad69)
 
 
 We can see on the following pie chart that over the total number of trips, the classic "thermal" bike is the most used at almost 60%. Followed by the electric bike.
-
-![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/cc98430b-911e-4eca-a815-97f7a7baaf61) 
-
 The docked bike (taken & dropped at a docking station), amounts to less than 5% of trips. Additionally, only casual riders use docked bicycles.
 
+#### Total Rides per Type of Bike:
+- Classic Bikes: Casual riders 853,401 rides; Members 1,573,312 rides; 59.63% of total rides.
+- Docked Bikes: Casual riders 171,580 rides; 4.22% of total rides.
+- Electric Bikes: Casual riders 657,063 rides; Members 814,202; 36.15% of total rides.
+Members prefer classic bikes significantly more than casual riders. However, casual riders use docked and electric bikes in a higher proportion compared to members.
+
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/cc98430b-911e-4eca-a815-97f7a7baaf61) 
 ![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/31fce0a1-c88b-4537-adb0-095630f9a54d)
 
-Trend observations show distinct patterns over longer times. Members tend to use their memberships more on weekdays than weekends, which is the reverse for casual riders. Looking at it monthly, there's a clear drop in trips during the cold months like January (12,046 trips) compared to the surge in trips during warm months like August (309,585 trips). This suggests that regular members might mostly be locals from Chicago, while casual users could include a good number of tourists. In other words, members may use Cyclistic for commuting vs. leisure trips for casual riders.
+#### Frequency of Rides per Day:
+- The frequency of rides by casual riders varies less throughout the week compared to members, with the highest numbers during the weekend.
+- Members show a consistent pattern of usage during weekdays, with a dip on the weekends.
+This suggests that members might be using the service for commuting purposes, whereas casual riders might be more inclined to use it for recreational purposes on weekends.
 
-![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/a9179ddb-4959-45f5-a1ea-3906e74a3198)
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/545991f1-6d9f-44c3-b001-425ddc97c4bb)
 
+#### Frequency of Rides per Month:
+- There is a general increase in the number of rides during the warmer months (May through September) for both casual riders and members.
+- Casual riders show a sharper increase in the summer months, suggesting a seasonal preference, possibly for recreational use.
+- Members’ usage appears to be more evenly distributed throughout the year, although still higher in the summer months, indicating a more consistent usage possibly related to commuting.
 
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/e86a97c5-7174-454d-b0e7-6a76ff472103)
+
+#### Start and End Station Maps:
+- The maps of start and end stations show a high concentration of usage in the central areas of the city for both casual riders and members.
+- The end station map for casual riders has more spread in the outskirts, which might suggest more exploratory and leisure rides that end in different locations from the start stations.
+- The start and end stations for members are more concentrated, which might indicate a more routine and predictable pattern of use, such as commuting to and from work.
+
+![image](https://github.com/KemanGstl/GDAC-Capstone-Project1/assets/146002850/b60fe85b-e995-4913-8f8f-0cd6fc855e77)
+
+#### Summary
+In summary, members tend to use the service more frequently but for shorter durations, indicating regular, possibly commuting use. Casual riders use the service less frequently but for longer periods, suggesting more recreational or leisurely usage. The preference for bike types also differs, with members preferring classic bikes and casual riders using docked and electric bikes more frequently. Seasonality affects both types of riders, with an uptick in rides during the warmer months, but casual riders show a much more pronounced increase, indicating a potential seasonal usage pattern. Finally, spatial usage patterns suggest that members might have more routine routes compared to casual riders, who show more variability in their start and end locations.
+
+## Act
+Based on the identified differences between casual and member riders from the Cyclistic case study, here are several marketing strategies that could be employed to convert casual riders into members:
+1. Membership Benefits for Longer Rides: Since casual riders tend to have longer ride durations, membership plans offering discounts on longer rides or unlimited ride time packages could be attractive.
+2. Seasonal Promotions: Casual riders show a sharp increase in usage during the warmer months. Offering seasonal discounts or special summer memberships could capitalize on this trend.
+3. Flexible Membership Plans: Offer a range of membership plans with varying degrees of flexibility, such as weekend-only memberships or off-peak hour memberships, which may appeal to the less frequent usage pattern of casual riders.
+4. Trial Memberships: Offer a one-time trial membership that allows casual riders to experience the full benefits of being a member for a short period, such as a week or a month.
+5. Rewards Program: Introduce a rewards program where casual riders can accumulate points for every ride, which can be redeemed for membership discounts or other perks.
